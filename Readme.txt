@@ -16,11 +16,11 @@ Steps involved towards attempting to solve this problem statement:
 •	Data Cleaning: This includes standardization, handling the missing values and outliers resolution in the data. 
 •	Dealing with Imbalanced data: This data set is highly imbalanced. The data is balanced using the SMOTEENN technique before moving into model building.
 •	Feature Engineering: As provided data shows pdays and pmonths i.e campaign client wast previously contacted, is then featured into categorical column. 
-•	Model Selection:  The Problem statement presents a classification task whether to market campaign or not (yes/no).For this purpose  Random Forest Classifier and Support                             vector machine classifiers are choosen and then ensemble the classifiers with hard probability voting. 
+•	Model Selection:  The Problem statement presents a classification task whether to market campaign or not (yes/no).For this purpose  Random Forest Classifier and Support vector machine classifiers are choosen and then ensemble the classifiers with hard probability voting. 
 •	Model Training: Splited the data into train & test sets and use the train set to estimate the best model parameters. 
-•	Model Validation: Evaluated the performance of the model on data that was not used during the training process. The goal is to estimate the model's ability to generalize to new,                       unseen data and to identify any issues with the model, such as overfitting. For this purpose Cross validation with 5 folds is used.
+•	Model Validation: Evaluated the performance of the model on data that was not used during the training process. The goal is to estimate the model's ability to generalize to new,unseen data and to identify any issues with the model, such as overfitting. For this purpose Cross validation with 5 folds is used.
 •	Model Deployment: Model deployment is the process of making a trained machine learning model available for use in a production environment. 
-                   A seperate file contains the Source pipeline for model deployment.
+A seperate file contains the Source pipeline for model deployment.
 
 Pointers:
 Added a column to the test_with.predictions.csv file. In this column, for each observation indicate a yes or a no whether company wishes to market to that candidate.
