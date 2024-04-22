@@ -8,7 +8,8 @@ Propensity modeling is a sophisticated technique designed to predict the likelih
 
 Data:
 
-The insurance company has provided with a historical data set (train.csv). The company has also provided with a list of potential customers to whom to market (test.csv). From this list of potential customers, we need to determine yes/no whether the compnay wishes to market to them. 
+The insurance company has provided with a historical data set (train.csv). The company has also provided with a list of potential customers to whom to market (test.csv). From this list of potential customers, we need to determine yes/no whether the compan
+y wishes to market to them. 
 
 Steps involved towards attempting to solve this problem statement: 
 
